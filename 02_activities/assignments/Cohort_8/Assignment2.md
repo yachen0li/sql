@@ -1,4 +1,5 @@
 # Assignment 2: Design a Logical Model and Advanced SQL
+Yachen Li
 
 🚨 **Please review our [Assignment Submission Guide](https://github.com/UofT-DSI/onboarding/blob/main/onboarding_documents/submissions.md)** 🚨 for detailed instructions on how to format, branch, and submit your work. Following these guidelines is crucial for your submissions to be evaluated correctly.
 
@@ -56,6 +57,8 @@ The store wants to keep customer addresses. Propose two architectures for the CU
 ```
 Your answer...
 ```
+Type 1 will override changes: CUSTOMER_ADDRESS: customer_id, street, city, province, postal_code
+Type 2 will retain changes: CUSOMTER_ADDRESS: address_id, customer_id, street, city, province, postal_code, start_date, end_date
 
 ***
 
