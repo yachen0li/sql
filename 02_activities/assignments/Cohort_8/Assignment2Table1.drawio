@@ -1,0 +1,28 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36" version="29.1.1">
+  <diagram name="ERD" id="NLb_rPGNByuYX4-Uzni5">
+    <mxGraphModel dx="985" dy="585" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="wXVIdXD-zvepZu6DqU74-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="CUSTOMER&lt;br&gt;customer_id&lt;br&gt;first_name&lt;br&gt;last_name&lt;br&gt;email&lt;div&gt;phone_number&lt;/div&gt;" vertex="1">
+          <mxGeometry height="110" width="120" x="40" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wXVIdXD-zvepZu6DqU74-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="ORDER&lt;br&gt;order_id&lt;br&gt;customer_id&lt;br&gt;employee_id&lt;br&gt;order_date&lt;br&gt;total" vertex="1">
+          <mxGeometry height="110" width="120" x="260" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wXVIdXD-zvepZu6DqU74-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="EMPLOYEE&lt;br&gt;employee_id&lt;br&gt;first_name&lt;br&gt;last_name&lt;br&gt;role" vertex="1">
+          <mxGeometry height="100" width="120" x="40" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="wXVIdXD-zvepZu6DqU74-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="BOOK&lt;br&gt;book_id&lt;br&gt;title&lt;br&gt;author&lt;br&gt;book_price" vertex="1">
+          <mxGeometry height="100" width="120" x="260" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="wXVIdXD-zvepZu6DqU74-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="SALES&lt;br&gt;sale_id&lt;br&gt;order_id&lt;br&gt;book_id&lt;br&gt;qty&lt;br&gt;book_price" vertex="1">
+          <mxGeometry height="120" width="120" x="500" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wXVIdXD-zvepZu6DqU74-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="DATE&lt;br&gt;date&lt;br&gt;year&lt;br&gt;month&lt;br&gt;day" vertex="1">
+          <mxGeometry height="100" width="120" x="500" y="210" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
