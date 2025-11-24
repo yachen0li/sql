@@ -19,9 +19,6 @@
         <mxCell id="wXVIdXD-zvepZu6DqU74-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="SALES&lt;br&gt;sale_id&lt;br&gt;order_id&lt;br&gt;book_id&lt;br&gt;qty&lt;br&gt;book_price" vertex="1">
           <mxGeometry height="120" width="120" x="500" y="40" as="geometry" />
         </mxCell>
-        <mxCell id="wXVIdXD-zvepZu6DqU74-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="DATE&lt;br&gt;date&lt;br&gt;year&lt;br&gt;month&lt;br&gt;day" vertex="1">
-          <mxGeometry height="100" width="120" x="500" y="210" as="geometry" />
-        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
